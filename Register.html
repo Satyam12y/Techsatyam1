@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techsatyam - Register</title>
+    <link rel="icon" type="image/png" href="technology.png">
+
+    <style>
+        body {
+            background-color: #C4D8B1;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #40DDA6;
+            padding: 15px 0;
+        }
+
+        nav table {
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        table.form-table {
+            background-color: #00FFFF;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        table.form-table td {
+            padding: 8px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .intro p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <table>
+        <tr>
+            <th><a href="Home.html">Home</a></th>
+            <th><a href="About.html">About Us</a></th>
+            <th><a href="Products.html">Products</a></th>
+            <th><a href="Register.html">Register</a></th>
+            <th><a href="Contacts.html">Contacts</a></th>
+        </tr>
+    </table>
+</nav>
+
+<div class="intro">
+    <h2>Join Techsatyam Today</h2>
+    <p>
+        Register now and become a part of our growing tech community.  
+        Let’s build your future with technology 🚀
+    </p>
+</div>
+
+<form action="#" method="post">
+    <table class="form-table">
+        <caption><h2>Registration Form</h2></caption>
+
+        <tr>
+            <td><label for="fname">First Name</label></td>
+            <td><input type="text" id="fname" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="lname">Last Name</label></td>
+            <td><input type="text" id="lname" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" id="password" required></td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gen" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gen" id="female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Skills</td>
+            <td>
+                <input type="checkbox" id="java">
+                <label for="java">Java</label>
+
+                <input type="checkbox" id="python">
+                <label for="python">Python</label>
+
+                <input type="checkbox" id="react">
+                <label for="react">React.js</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td><input type="date" id="dob"></td>
+        </tr>
+
+        <tr>
+            <td><label for="adhar">Aadhar Card</label></td>
+            <td><input type="file" id="adhar"></td>
+        </tr>
+
+        <tr>
+            <td><label for="city">City</label></td>
+            <td>
+                <select id="city">
+                    <option>Pune</option>
+                    <option>Rampur</option>
+                    <option>Noida</option>
+                    <option>Kant</option>
+                    <option>Ghaziabad</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="comment">Comment</label></td>
+            <td><input type="text" id="comment"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Register">
+                <input type="reset" value="Cancel">
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
